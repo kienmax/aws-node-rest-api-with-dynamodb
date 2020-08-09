@@ -59,6 +59,9 @@ functions:
           method: delete
           cors: true
 
+  kienmax:
+    handler: todos/kienmax.kienmax
+
 resources:
   Resources:
     TodosDynamoDbTable:
