@@ -58,6 +58,8 @@ functions:
           path: todos/{id}
           method: delete
           cors: true
+  thuong1:
+    handler: todos/thuong.thuong1
 
   kienmax:
     handler: todos/kienmax.kienmax
